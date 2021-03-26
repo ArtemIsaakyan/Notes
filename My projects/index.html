@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <title>Notes</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="nav-wrap">
+            <div class="nav">
+                <h1 class="header-theme">Menu</h1>
+                <ul>
+                    <li><a href="#" id="createNew">Create new</a></li>
+                    <li><a href="#" id="pastTables">My tables</a></li>
+                    <li><a href="#" id="settings">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-wrap">
+            <h1 class="header-theme">Table's name</h1>
+            <div class="out"></div>
+            <!-- <div class="note">
+                <div class="header-note">Note's header</div>
+                <div class="text-note">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, odit?</li>
+                        <li>Hobby</li>
+                        <li>Sport</li>
+                        <li>Walk</li>
+                    </ul>
+                </div>
+            </div> -->
+
+
+
+        </div>
+        <div class="aside-wrap">
+            <h1 class="header-theme">Edit</h1>
+            <button class="btnStyle" id="createNewNote">Create new note</button><br>
+            <div class="optionsForm">
+                <div class="field">
+                    <label for="noteHeader">Note's header:</label>
+                    <input type="text" id="noteHeader">
+                </div>
+                <div class="field">
+                    <label for="noteText">Add point:</label>
+                    <input type="text" id="noteText">
+                </div>
+                <button class="btnStyle" id="addNewNote">Add</button><br>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+<script src="script.js"></script>
+
+</html>
